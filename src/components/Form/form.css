@@ -1,0 +1,158 @@
+button {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF;
+  text-align: center;
+}
+
+.trial {
+  width: 327px;
+  height: 88px;
+  border-radius: 10px;
+  background: #5E54A4;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.268px;
+  margin: 64px 0 24px;
+  padding: 18px 66px;
+}
+
+.trial span {
+  font-weight: 700;
+}
+
+form {
+  width: 327px;
+  min-height: 442px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  outline: none;
+  width: 279px;
+  height: 56px;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  background: #FFF;
+  margin-top: 16px;
+  padding-left: 19.41px;
+  font-family: 'Poppins', sans-serif;
+  color: #3D3B48;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+}
+
+input:first-child {
+  margin-top: 24px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #5E54A4;
+}
+
+::placeholder {
+  color: #3D3B48;
+  opacity: 0.75;
+}
+
+/* email's placeholder on error */
+.error::placeholder {
+  color: #FF7979;
+  opacity: 1;
+}
+
+/* submit button */
+.sub {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  width: 279px;
+  height: 56px;
+  border-radius: 5px;
+  background: #38CC8B;
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.terms {
+  width: 249px;
+  color: #BAB7D4;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 24px;
+}
+
+.terms span {
+  color: #FF7979;
+  font-weight: 700;
+}
+
+/* Add error styles for input fields */
+input.error {
+  border: 1px solid #FF7979;
+  background-image: url('src/assets/icon-error.svg');
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.error-message {
+  font-style: italic;
+  font-weight: 500;
+  color: #FF7979;
+  font-size: 11px;
+}
+
+@media screen and (min-width:1440px) {
+  .trial {
+    width: 540px;
+    height: 60px;
+    margin: 121px 0 24px;
+    padding: 17px 110px;
+  }
+
+  form {
+    width: 540px;
+    min-height: 474px;
+    margin-bottom: 121px;
+  }
+
+  input {
+    width: 460px;
+    height: 56px;
+    margin-top: 20px;
+    padding-left: 32px;
+  }
+
+  input:first-child {
+    margin-top: 40px;
+  }
+
+  /* submit button */
+  .sub {
+    margin-top: 20px;
+    width: 460px;
+    height: 56px;
+  }
+
+  .terms {
+    width: 370px;
+    line-height: 26px;
+    margin-bottom: 40px;
+  }
+}

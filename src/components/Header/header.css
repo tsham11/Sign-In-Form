@@ -1,0 +1,45 @@
+.hd {
+  color: #FFF;
+  text-align: center;
+  width: 327px;
+}
+
+.hd h1 {
+  margin: 88px 0 16px;
+  width: 327px;
+  height: 80px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.292px;
+}
+
+.hd p {
+  width: 327px;
+  height: 130px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+@media screen and (min-width:1440px) {
+  .hd {
+    color: #FFF;
+    text-align: start;
+    width: 525px;
+  }
+
+  .hd h1 {
+    margin: 0 0 11px;
+    width: 525px;
+    height: 131px;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.521px;
+  }
+
+  .hd p {
+    width: 525px;
+    height: 78px;
+  }
+}
